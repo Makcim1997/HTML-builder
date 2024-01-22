@@ -30,4 +30,5 @@ const getInformationAboutFiles = () => {
   console.log(dataString.join(',\n'));
 }
 
+
 getInformationAboutFiles();
