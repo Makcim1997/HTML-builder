@@ -25,7 +25,7 @@ const getInformationAboutFiles = () => {
   filesName.forEach((file) => {
     const { name, ext } = getFileNameAndExtension(file);
     const size = getFileSize(file);
-    dataString.push(`${name} - ${ext} - ${size}`);
+    dataString.push(`${name} - ${ext.replace('.', '')} - ${size}b`);
   })
   console.log(dataString.join(',\n'));
 }
