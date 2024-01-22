@@ -29,5 +29,4 @@ const fileHandler = () => {
 
 process.on('SIGINT', () => {});
 process.on('SIGINT', exit);
-
 fileHandler();
